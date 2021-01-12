@@ -1,15 +1,15 @@
-// Font definition 
+// Font definition
 $fontStyleh1: "Patrick Hand", cursive;
 $fontStylep: "Raleway", sans-serif;
 
 // Color definition for text
-$textColorBeige: #FFE7CB;
-$textColorGreen: #01504D;
+$textColorBeige: #ffe7cb;
+$textColorGreen: #01504d;
 
 //Color definition for background
-$colorJungleGreen: #01504D;
-$colorLightGreen: #40C2AA;
-$colorSand: #FEB250;
+$colorJungleGreen: #01504d;
+$colorLightGreen: #40c2aa;
+$colorSand: #feb250;
 
 // Main elements of the page
 * {
@@ -18,11 +18,11 @@ $colorSand: #FEB250;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 .page {
   height: 1000px;
 }
-

@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.funding {
+  background-color: #feb250;
+  height: 100%;
+  width: 100%;
+
+  &__title {
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    color: white;
+    font-size: 60px;
+    margin-top: -15vh;
+    margin-bottom: 0 px;
+  }
+
+  &__description {
+    font-family: "Raleway", mixed;
+    color: #01504d;
+    text-align: center;
+  }
+
+  &__monkey {
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__link {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .funding__title {
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+}

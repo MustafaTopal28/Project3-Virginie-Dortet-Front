@@ -1,234 +1,229 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
-  .sectionAuteur {
-    background-color: #01504d;
-    height: 100%;
-    width: 100%;
-  }
-  
-  
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.sectionAuteur {
+  background-color: #01504d;
+  height: 100%;
+  width: 100%;
+}
+
+.titrePage {
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  color: white;
+  font-size: 60px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.flexybox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 180px;
+}
+.PhotoVirginie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-left: 60px; */
+  align-items: center;
+}
+.photoVirginie {
+  width: 290px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.presentationVirginie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.titreAuteur {
+  font-family: "Patrick Hand", cursive;
+  color: white;
+  font-size: 40px;
+}
+.titreAuteur2 {
+  font-size: 40px;
+  font-family: "Patrick Hand", cursive;
+  color: white;
+  margin-bottom: 15px;
+}
+.paragrapheAuteur {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.videoPresentation {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 50px; */
+}
+.ptitsinge {
+  z-index: 1000;
+  margin-left: 750px;
+  margin-top: -700px;
+  height: 220px;
+  position: absolute;
+
+  -webkit-margin-start: 380px;
+  -webkit-margin-before: -360px;
+}
+
+.video {
+  margin-bottom: 100px;
+  position: relative;
+  width: 950px;
+  height: 500px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .titrePage {
     text-align: center;
     font-family: "Patrick Hand", cursive;
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   .flexybox {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    /* align-items: center; */
     width: 100%;
-    margin-bottom: 180px;
+    margin-bottom: 150px;
   }
   .PhotoVirginie {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding-left: 60px; */
+    padding-left: 60px;
     align-items: center;
   }
   .photoVirginie {
-    width: 290px;
-    height: 300px;
+    width: 220px;
+    height: 240px;
     border-radius: 50%;
   }
-  
+
   .presentationVirginie {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .titreAuteur {
     font-family: "Patrick Hand", cursive;
     color: white;
-    font-size: 40px;
-    
+    font-size: 30px;
   }
   .titreAuteur2 {
-    font-size: 40px;
+    font-size: 25px;
     font-family: "Patrick Hand", cursive;
     color: white;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .paragrapheAuteur {
     font-family: "Raleway", sans-serif;
     color: white;
     font-size: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
   .videoPresentation {
-    margin-top: 120px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: 50px; */
   }
   .ptitsinge {
     z-index: 1000;
-    margin-left: 750px;
-    margin-top: -700px;
-    height: 220px;
+    margin-left: 470px;
+    margin-top: -640px;
+    height: 140px;
     position: absolute;
-
-    -webkit-margin-start: 380px;
-    -webkit-margin-before: -360px;
+    -webkit-margin-start: 250px;
+    -webkit-margin-before: -310px;
   }
-  
+
   .video {
+    width: 650px;
+    height: 450px;
     margin-bottom: 100px;
     position: relative;
-    width: 950px;
-    height: 500px;
   }
-  
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .titrePage {
-      text-align: center;
-      font-family: "Patrick Hand", cursive;
-      color: white;
-      font-size: 50px;
-      margin-top: 50px;
-      margin-bottom: 40px;
-    }
-    .flexybox {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      /* align-items: center; */
-      width: 100%;
-      margin-bottom: 150px;
-    }
-    .PhotoVirginie {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-left: 60px;
-      align-items: center;
-    }
-    .photoVirginie {
-      width: 220px;
-      height: 240px;
-      border-radius: 50%;
-    }
-  
-    .presentationVirginie {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      padding-left: 50px;
-      padding-right: 50px;
-      
-    }
-    .titreAuteur {
-      font-family: "Patrick Hand", cursive;
-      color: white;
-      font-size: 30px;
-    }
-    .titreAuteur2 {
-      font-size: 25px;
-      font-family: "Patrick Hand", cursive;
-      color: white;
-      margin-bottom: 10px;
-    }
-    .paragrapheAuteur {
-      font-family: "Raleway", sans-serif;
-      color: white;
-      font-size: 20px;
-      margin-bottom: 10px;
-    }
-    .videoPresentation {
-      margin-top: 50px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-     }
-    .ptitsinge {
-      z-index: 1000;
-      margin-left: 470px;
-      margin-top: -640px;
-      height: 140px;
-      position: absolute;
-      -webkit-margin-start: 250px;
-    -webkit-margin-before: -310px;
-    }
-  
-    .video {
-      width: 650px;
-      height: 450px;
-      margin-bottom: 100px;
-      position: relative;
-    }
+}
+
+@media screen and (max-width: 670px) {
+  .video {
+    display: none;
   }
-  
-  @media screen and (max-width: 670px) {
-    
-    .video {
-      display: none;
-    }
-    .ptitsinge {
-      display: none;
-    }
-    .titrePage {
-      text-align: center;
-      font-family: "Patrick Hand", cursive;
-      color: white;
-      font-size: 30px;
-      margin-top: -130px;
-      margin-bottom: 20px;
-    }
-    .flexybox {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      margin-bottom: 80px;
-    }
-    .photoVirginie {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      margin-bottom: 30px;
-    }
-    .presentationVirginie {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding-left: 40px;
-      padding-right: 40px;
-    }
-    .titreAuteur {
-      font-family: "Patrick Hand", cursive;
-      color: white;
-      font-size: 30px;
-      text-align: center;
-    }
-    .titreAuteur2 {
-      font-size: 20px;
-      font-family: "Patrick Hand", cursive;
-      color: white;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-    .paragrapheAuteur {
-      font-family: "Raleway", sans-serif;
-      color: white;
-      font-size: 15px;
-      margin-bottom: 8px;
-      text-align: center;
-      text-justify: auto;
-    }
+  .ptitsinge {
+    display: none;
   }
-  
+  .titrePage {
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    color: white;
+    font-size: 30px;
+    margin-top: -130px;
+    margin-bottom: 20px;
+  }
+  .flexybox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .photoVirginie {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+  .presentationVirginie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .titreAuteur {
+    font-family: "Patrick Hand", cursive;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+  .titreAuteur2 {
+    font-size: 20px;
+    font-family: "Patrick Hand", cursive;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .paragrapheAuteur {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 8px;
+    text-align: center;
+    text-justify: auto;
+  }
+}
